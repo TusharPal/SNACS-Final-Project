@@ -1,0 +1,2 @@
+https://dumps.wikimedia.org/other/clickstream/2020-02/clickstream-enwiki-2020-02.tsv.gz
+https://dumps.wikimedia.org/other/clickstream/2020-03/clickstream-enwiki-2020-03.tsv.gz
