@@ -1,0 +1,2 @@
+https://snap.stanford.edu/data/soc-redditHyperlinks-body.tsv
+https://snap.stanford.edu/data/soc-redditHyperlinks-title.tsv

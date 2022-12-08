@@ -1,21 +1,32 @@
 # Setup
 - Install requirements from requirements.txt
-- For each dataset, the download urls are listed in the setup directory, along with a download.sh script to download all of them. Run those scripts
+- For each dataset, the download urls are listed in the setup directory, along with a download.sh script to download all of them.
+- Make script executable using *chmod +x download.sh*
+- Run scripts using *./download.sh*
 
 # Experiments
 The corresponding jupyter notebooks for experiments can be found in the experiments directory. 
 
-## NYC Taxi Cab trip data
+# Datasets
+We want undirected, unweighted networks, with a large number of nodes. A variance in the following metrics is needed 
+- density
+- average clustering coefficient
+- diameter 
 
-The data contains individual trips from a starting location id, to a destination location id, along with fare details. We want to answer the following questions
+## Social networks
+- [reddit-hyperlinks](https://snap.stanford.edu/data/soc-RedditHyperlinks.html)
+- [rt-retweet](https://networkrepository.com/rt-retweet-crawl.php)
+- [hiv_transmission](https://networks.skewed.de/net/hiv_transmission)
 
-- How related are all the centrality measures to nodes ranked by revenue
-- Can we use Top K Closeness centrality to find the top revenue generating taxi pick up zones
-- Can we use Top K Closeness centrality to find nodes as well as their neighbors that generate top revenue/trip count
-  
-## Wikipedia Clickstream
+## Web networks
+- [Wikipedia Clickstream](https://meta.wikimedia.org/wiki/Research:Wikipedia_clickstream)
 
-The dataset contains clickstream data for the Wikipedia website. Each row is a source and destination page name that any user visited, as well as the type of source link, and the number of times users visited the particular destination from source. We want to answer the following questions
+## Collaboration networks
+- [Astro Physics](https://snap.stanford.edu/data/ca-AstroPh.html)
+- [TerroristRel](https://networkrepository.com/TerroristRel.php)
 
-- How related is top k closeness centrality to the other centrality measures.
-- Can we use Top K Closeness Centrality to find the top visited destinations, for the sample usecase of caching pages more optimally 
+## Road networks
+- [roadNet-CA](https://snap.stanford.edu/data/roadNet-CA.html)
+- [Euroroads](http://konect.cc/networks/subelj_euroroad/)
+- [openflights](https://networkrepository.com/inf-openflights.php)
+- [us_roads](https://networks.skewed.de/net/us_roads)
