@@ -1,1 +1,3 @@
-wget -i raw_data_urls.txt -P ../../data/terroristrel-w 2
+wget -i raw_data_urls.txt -P ../../data/terroristrel 2
+cd ../../data/terroristrel
+unzip TerroristRel.zip
