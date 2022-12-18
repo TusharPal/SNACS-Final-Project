@@ -14,19 +14,33 @@ We want undirected, unweighted networks, with a large number of nodes. A varianc
 - diameter 
 
 ## Social networks
-- [reddit-hyperlinks](https://snap.stanford.edu/data/soc-RedditHyperlinks.html)
+<!-- - [reddit-hyperlinks](https://snap.stanford.edu/data/soc-RedditHyperlinks.html) -->
 - [rt-retweet](https://networkrepository.com/rt-retweet-crawl.php)
-- [hiv_transmission](https://networks.skewed.de/net/hiv_transmission)
-
-## Web networks
-- [Wikipedia Clickstream](https://meta.wikimedia.org/wiki/Research:Wikipedia_clickstream)
+- [digg_reply](https://networks.skewed.de/net/digg_reply)
+- [email_enron](https://networks.skewed.de/net/email_enron)
 
 ## Collaboration networks
-- [Astro Physics](https://snap.stanford.edu/data/ca-AstroPh.html)
+- [ca-AstroPh](https://snap.stanford.edu/data/ca-AstroPh.html)
+- [ca-CondMat](https://snap.stanford.edu/data/ca-CondMat.html)
+- [ca-HepPh](https://snap.stanford.edu/data/ca-HepPh.html)
 - [TerroristRel](https://networkrepository.com/TerroristRel.php)
-
+- [marvel_universe](https://networks.skewed.de/net/marvel_universe)
+  
 ## Road networks
+<!-- - [openflights](https://networkrepository.com/inf-openflights.php) -->
+- [us_roads/AK](https://networks.skewed.de/net/us_road)
+- [us_roads/NH](https://networks.skewed.de/net/us_road)
+- [us_roads/VT](https://networks.skewed.de/net/us_road)
+- [us_roads/CT](https://networks.skewed.de/net/us_roads)
 - [roadNet-CA](https://snap.stanford.edu/data/roadNet-CA.html)
-- [Euroroads](http://konect.cc/networks/subelj_euroroad/)
-- [openflights](https://networkrepository.com/inf-openflights.php)
-- [us_roads](https://networks.skewed.de/net/us_roads)
+  
+# Paper
+
+## Introduction
+- Some blurb about utility of network analysis
+- Explain degree centrality, the simplest centrality measure
+- Explain closeness centrality, and by extension topk closeness centrality
+- Choosing a centrality measure for a task can be difficult. There are certain network specific factors that affect performance
+- Detail experiments w.r.t time analysis
+- Intuitively, degree and closeness centrality for TopK closeness should be related. But again, certain network specific factors will affect this relationship
+- Detail experiments w.r.t comparing degree, closeness, topkcloseness BFSCUT and LB variants
